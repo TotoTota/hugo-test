@@ -1,0 +1,41 @@
+baseURL: ""
+languageCode: en-us
+title: My New Hugo Site
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: Welcome to my blog lol !
+  socialIcons:
+    - name: facebook
+      url: "https://facebook.com/"
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: github
+      url: "https://github.com/"
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      wheight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      wheight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      wheight: 30
