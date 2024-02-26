@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: This is my first site in hugo
 date: 2024-02-26T18:02:42+01:00
 draft: false
 cover:
